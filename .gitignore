@@ -7,9 +7,13 @@ src/test_*.h
 
 src/lib/
 
-src/cluster_data/
+src/cluster_data/data/*
 !src/cluster_data/data/sports_test
+
+src/cluster_data/query/*
 !src/cluster_data/query/sports_test_query
+
+src/cluster_data/sketch/*
 
 src/data/
 
