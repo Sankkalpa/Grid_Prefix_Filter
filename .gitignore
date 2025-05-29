@@ -17,6 +17,6 @@ src/makefile
 
 src/spjoin
 src/asdas
-src/.DS_store
+**/.DS_Store
 
 src/BFquery.cpp
