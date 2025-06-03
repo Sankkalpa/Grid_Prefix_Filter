@@ -1,6 +1,8 @@
 *.o
 *.csv
 *.sub
+*.err
+.vscode/
 
 src/test_*.cpp
 src/test_*.h
