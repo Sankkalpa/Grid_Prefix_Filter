@@ -11,20 +11,19 @@ Grid Prefix Filter uses a grid-based approach combined with a prefix filter to p
 - **Pruning**: Efficient filtering through prefix sum techniques, reducing the number of candidates to process significantly.
 
 📁 **Repository Structure**
-
+```
 GridPrefixFilter/
-├── src/                 # C++ source code
-│   ├── main.cpp         # Entry point
-│   ├── mpi_filter.cpp   # MPI parallelism
-│   ├── geoutil.cpp      # Geometry utilities
-│   └── query.cpp        # Prefix filter implementation
-│   └── brute_force.cpp  # Brute-force implementation (exact method)
-│   └── util.h.cpp       # Basic utilities (other)
-│   └── parse_geodata.cpp# Read WKT files
-├── data/                # Input polygon data (WKT format) and output CSVs (not included)
-├── README.md            # This file
-
----
+├── src/                  # C++ source code
+│   ├── main.cpp          # Entry point
+│   ├── mpi_filter.cpp    # MPI parallelism
+│   ├── geoutil.cpp       # Geometry utilities
+│   ├── query.cpp         # Prefix filter implementation
+│   ├── brute_force.cpp   # Brute‐force implementation (exact method)
+│   ├── util.h.cpp        # Basic utilities (other)
+│   └── parse_geodata.cpp # Read WKT files
+├── data/                 # Input polygon data (WKT format) and output CSVs (not included)
+└── README.md             # This file
+```
 
 ## ⚙️ **Dependencies**
 
