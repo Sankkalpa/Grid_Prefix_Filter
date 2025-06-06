@@ -6,7 +6,7 @@ This repository contains the source code for the **Grid Prefix Filter** system, 
 📌 **Overview**
 Grid Prefix Filter uses a grid-based approach combined with a prefix filter to perform spatial filtering for polygon similarity search. The method first divides the space into a uniform grid, then filters out candidates based on their grid-based hash values, making the search more efficient.
 
-- **Hashing Method**: Grid-based partitioning combined with prefix filtering.
+- **Pruning Method**: Grid-based partitioning combined with prefix filtering.
 - **Similarity Metric**: Jaccard distance based on geometric intersection area.
 - **Pruning**: Efficient filtering through prefix sum techniques, reducing the number of candidates to process significantly.
 
@@ -14,6 +14,7 @@ Grid Prefix Filter uses a grid-based approach combined with a prefix filter to p
 ```
 GridPrefixFilter/
 ├── src/                  # C++ source code
+|   ├── data/             # Input polygon data (WKT format) and output CSVs (not included)
 │   ├── main.cpp          # Entry point
 │   ├── mpi_filter.cpp    # MPI parallelism
 │   ├── geoutil.cpp       # Geometry utilities
@@ -21,7 +22,6 @@ GridPrefixFilter/
 │   ├── brute_force.cpp   # Brute‐force implementation (exact method)
 │   ├── util.h.cpp        # Basic utilities (other)
 │   └── parse_geodata.cpp # Read WKT files
-├── data/                 # Input polygon data (WKT format) and output CSVs (not included)
 └── README.md             # This file
 ```
 
