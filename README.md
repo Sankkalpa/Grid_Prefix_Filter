@@ -11,6 +11,7 @@ Grid Prefix Filter uses a grid-based approach combined with a prefix filter to p
 - **Pruning**: Efficient filtering through prefix sum techniques, reducing the number of candidates to process significantly.
 
 📁 **Repository Structure**
+
 GridPrefixFilter/
 ├── src/                 # C++ source code
 │   ├── main.cpp         # Entry point
